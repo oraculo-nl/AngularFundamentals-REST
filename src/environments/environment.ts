@@ -3,7 +3,9 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  starWarsUrl: 'https://swapi.dev/api',
+  crudcrud: 'https://crudcrud.com/api/809429045a614d89b3ee0399487cb787'
 };
 
 /*

@@ -1,0 +1,7 @@
+<table>
+
+  <tr *ngFor=" let person of people">
+    <td>{{person.name}}</td>
+    <td><button (click)="newPerson(person.name)"> create person</button></td>
+  </tr>
+</table>
